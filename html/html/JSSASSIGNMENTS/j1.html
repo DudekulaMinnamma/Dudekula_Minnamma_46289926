@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<h2>Callback Functions</h2>
+
+<p>The result of the calculation is:</p>
+<p id="demo"></p>
+
+<script>
+function sqaure(something) {
+  document.getElementById("demo").innerHTML = something*something;
+}
+
+function double(num1,  myCallback) {
+  
+  myCallback(num1*2);
+}
+
+double( 5, sqaure);
+</script>
+
+</body>
+</html>

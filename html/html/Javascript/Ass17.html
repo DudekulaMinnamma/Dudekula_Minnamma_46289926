@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango","Grapes"];
+document.write("Before swapiing"+"<br>"+fruits)
+const c1 = fruits.slice(0, 2);
+const c2 = fruits.slice(2, fruits.length-1);
+
+document.getElementById("demo").innerHTML = "After swapping"+"<br>"+c2+c1
+</script>
+
+</body>
+</html>

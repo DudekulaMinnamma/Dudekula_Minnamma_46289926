@@ -1,0 +1,23 @@
+ï»¿<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Arrays concatination</h1>
+
+<p id="demo"></p>
+
+<script>
+ arr1 = ["a","b","c"];
+arr2 = [1,2,3];
+let s=""
+for(let i=0;i<3;i++){
+    s+=arr1[i]
+    s+=arr2[i]
+
+}
+ children = arr1.concat(arr2); 
+document.getElementById("demo").innerHTML = s;
+</script>
+
+</body>
+</html>

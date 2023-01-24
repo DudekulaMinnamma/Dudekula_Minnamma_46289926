@@ -1,0 +1,28 @@
+.main{
+    background-color:blueviolet;
+    padding: 3px;
+    margin: 0px;
+}
+div{
+  
+    background-color:darkgrey;
+    padding: 3px;
+    margin: 0px;
+    
+}
+p{
+  background-color: aqua;
+ margin: 0px;
+
+}
+.demo{
+  background-color: aqua;
+  
+}
+.demo2{
+  text-transform: uppercase;
+}
+.dot{
+  border: 2px;
+  border-style: dashed;
+}
